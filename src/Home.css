@@ -1,0 +1,45 @@
+.form{
+    border: 1px solid rgba(255, 255, 255, 0.674);
+    padding: 35px;
+    margin-top: 15vh;
+    background-color: rgba(255, 255, 255, 0.406);
+    border-radius: 25px;
+}
+
+.body22{
+    background: linear-gradient(180deg,purple, orange,purple);
+    min-height: 100vh;
+}
+
+.todobody{
+    background-color:rgba(245, 222, 179, 0.874);
+    min-height: 91vh;
+}
+
+.search{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+
+}
+.search1{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+
+}
+.table22{
+    min-width: 60%;
+}
+
+@media only screen and (max-width: 700px) {
+    .table22{
+        min-width: 85%;
+    }
+  }
