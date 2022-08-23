@@ -2,14 +2,14 @@ import './App.css';
 import Home from './Home';
 import ToDo from './ToDo';
 import{ 
-  HashRouter as Router,
+  HashRouter,
   Route,
   Routes,} 
   from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
 
 
       <Routes>
@@ -18,7 +18,7 @@ function App() {
         <Route exact path='/todo' element={<ToDo/>}/>
 
       </Routes>
-    </Router>
+    </HashRouter>
     
   );
 }
