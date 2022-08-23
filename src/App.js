@@ -14,8 +14,8 @@ function App() {
 
       <Routes>
         
-        <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/todo' element={<ToDo/>}/>
+        <Route  path='/' element={<Home/>}/>
+        <Route  path='/todo' element={<ToDo/>}/>
 
       </Routes>
     </HashRouter>
