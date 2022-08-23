@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Home';
 import ToDo from './ToDo';
 import{ 
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,} 
   from 'react-router-dom';
