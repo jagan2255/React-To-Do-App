@@ -29,7 +29,7 @@ class Home extends Component{
 
     if (data.email==="admin@gmail.com" && data.password==="admin1234") {
 
-     return window.location.replace("/todo");
+     return window.location.replace("/#/todo");
 
     }else{
     alert("Invalid User")
